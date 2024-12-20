@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.5) , rgba(78, 69, 69, 0.782));
+    font-family: Arial, sans-serif;
+
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+
+}
+header{
+  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+   
+}
+.all{
+    background-image:linear-gradient(to top , rgba(0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/Header\ picture.png);
+}
+.header-section{
+    padding: 200px;
+}
+.AboutUs{
+    border-radius: 20px;
+}
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #888;
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .card button:hover {
+    background-color: #000;
+  }
+  
+  .accordion-header {
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #777;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+#about-us video{
+width: 500px;
+height: 300px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #5a6268;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.row {
+  align-items: flex-start;
+}
+
+.col-md-4 {
+  text-align: left;
+}
+
+.col-md-8 {
+  text-align: right;
+}
+
+.top-btn{
+  background-color:gray;
+  color: white;
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  height: 45px;
+  z-index: 9999;
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+  
